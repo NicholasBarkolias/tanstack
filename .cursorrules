@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "name": "use-functional-react",
+      "description": "Always use functional React components instead of class components"
+    },
+    {
+      "name": "install-latest-packages",
+      "description": "When a new package is needed, install the latest version unless specified otherwise"
+    },
+    {
+      "name": "use-codebase-dependencies",
+      "description": "Favor existing dependencies from package.json, such as React 19, Tailwind 3.x, and other pinned libraries"
+    },
+    {
+      "name": "eslint-formatting",
+      "description": "Follow .eslintrc and .prettierrc rules for code style, especially tabWidth=2, singleQuote=false, trailingComma=all"
+    },
+    {
+      "name": "tailwindcss",
+      "description": "Use the Tailwind config at tailwind.config.ts and import the CSS from lib/styles/app.css"
+    },
+    {
+      "name": "directory-structure",
+      "description": "Keep the project structure consistent with the existing app, lib, and config files. For server logic, use lib/server/..."
+    }
+  ]
+}

@@ -7,23 +7,21 @@ A minimal starter template for 🏝️ TanStack Start.
 - [Drizzle ORM](https://orm.drizzle.team/) + PostgreSQL
 - [Better Auth](https://www.better-auth.com/) with OAuth2 for GitHub, Google, and Discord.
 
-> If you're looking for an implementation based on the [Lucia Auth](https://lucia-auth.com) guide, check out the [`lucia-auth`](https://github.com/dotnize/tanstarter/tree/lucia-auth) branch.
 
 ## Getting Started
 
-1. [Use this template](https://github.com/new?template_name=tanstarter&template_owner=dotnize) or clone this repository.
 
-2. Install dependencies:
+1. Install dependencies:
 
    ```bash
    pnpm install # npm install
    ```
 
-3. Create a `.env` file based on [`.env.example`](./.env.example).
+2. Create a `.env` file based on [`.env.example`](./.env.example).
 
-4. In your OAuth2 apps, set the callback/redirect URIs to `http://localhost:3000/api/auth/callback/<provider>` (e.g. http://localhost:3000/api/auth/callback/github).
+3. In your OAuth2 apps, set the callback/redirect URIs to `http://localhost:3000/api/auth/callback/<provider>` (e.g. http://localhost:3000/api/auth/callback/github).
 
-5. Push the schema to your database with drizzle-kit:
+4. Push the schema to your database with drizzle-kit:
 
    ```bash
    pnpm db push # npm run db push
@@ -31,7 +29,7 @@ A minimal starter template for 🏝️ TanStack Start.
 
    https://orm.drizzle.team/docs/migrations
 
-6. Run the development server:
+5. Run the development server:
 
    ```bash
    pnpm dev # npm run dev
